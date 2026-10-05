@@ -1,0 +1,225 @@
+/* Common style for page */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Gulzar&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+/* Homepage */
+
+/* Common CSS Properties */
+p{
+	color:#262626ff;
+}
+
+
+/* Navigation Section */
+
+.header_sec, .hero_sec, .feature2_sec, .feature3_sec, .feature6_sec, .footer_sec {
+	padding: 35px;
+
+}
+
+.vizard_project_and_banner{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+a{
+	text-decoration: none;
+	color:inherit;
+}
+
+.home_wrapper{
+	background-color: rgb(237, 237, 237);
+}
+
+
+.nav_sec{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_menus{
+	display:flex;
+    gap: 15px;
+}
+
+.cta_btns{
+	display:flex;
+    gap: 20px;
+
+}
+
+.cta_btns a{
+	padding: 13px;
+    border-radius: 6px;
+    background: #4f46e5;
+    color: white;
+    font-size: 16px;
+}
+
+.cta_btn{
+	padding:25px 0;
+}
+
+/* Hero section */
+
+h5{
+	color:#7f7f7fff;
+	padding: 10px 0;
+}
+
+h1,h2{
+	color:#030303ff;
+	padding:10px 0;
+}
+
+.hero_sec_content, .feature1_sec_desc, .feature2_sec_desc, .feature3_sec_desc, .feature4_sec_banner_and_desc, .feature6_sec_desc, .testimonial_desc  p
+{
+	padding: 10px 0;
+}
+
+/* Companies Section */
+
+.company_sec{
+	padding: 35px;
+    text-align: center;
+}
+
+.company_desc{
+	padding: 10px 0;
+}
+
+.company_logos{
+	display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Feature section 1 */
+
+.solution_sec{
+	padding: 35px;
+}
+    
+	
+.solution_sec_desc_and_banner{
+	display: flex;
+    gap: 30px;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: rgba(51, 51, 51, 0.1) 12px 12px 0;
+    opacity: 1;
+}
+
+/* Feature section 2 */
+
+.smart_saver_sec{
+	display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+
+
+/* Feature section 3 */
+
+.cost_saver_sec{
+	display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+/* Feature section 4 */
+
+.feature4_sec{
+	padding: 35px;
+}
+
+.community_sec{
+	display: flex;
+    gap: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: rgba(51, 51, 51, 0.1) 12px 12px 0px;
+    border: 0px;
+    opacity: 1;
+}
+
+h4{
+	padding: 10px 0 10px 0;
+}
+.feature4_sec_step_box{
+	border-bottom: dotted;
+    padding: 0 0 10px 0;
+}
+
+.third_stepbox{
+
+	border-bottom:0;
+}
+
+.feature4_sec_step_box p{
+	color:#4f4f4fff
+}
+
+/* Cards Section */
+
+.testimonial_sec{
+	padding:35px;
+	text-align: center;
+}
+
+.cards p{
+	color: #030303ff;
+	font-size:20px;
+	font-weight: bold;
+}
+
+.testimonial_sec_names{
+	color: #4f4f4fff;
+	font-weight: normal;
+}
+
+.testimonal_cards_sec{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.cards{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+
+/* Feature section 6 */
+
+.lando_sec_with_banner{
+	display: flex;
+    gap: 30px;
+	align-items: center;
+}
+
+/* Footer Area */
+
+	.footer_area{
+	display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 30px;
+	}
+
+	.footer_page_links, .footer_social_links, .footer_privacy_terms{ 
+	display: flex;
+    flex-direction: column;
+    gap: 10px;}
