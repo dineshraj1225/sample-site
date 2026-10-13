@@ -25,14 +25,15 @@ p{
 
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1350px;
     margin: 0 auto;
-    padding: 0 24px;
+    padding: 0 20px;
 }
 
 
 .header_sec, .hero_sec, .feature2_sec, .feature3_sec, .feature6_sec, .footer_sec {
-    padding: 35px;
+    padding: 30px;
+
 }
 
 
@@ -153,7 +154,7 @@ h3{
 
 
 .company_sec{
-    padding: 35px;
+    padding: 30px;
     text-align: center;
 }
 
@@ -177,7 +178,7 @@ h3{
 
 
 .solution_sec{
-    padding: 35px;
+    padding: 30px;
 }
    
 .solution_sec_desc{
@@ -192,6 +193,7 @@ h3{
     box-shadow: rgba(51, 51, 51, 0.1) 12px 12px 0;
     opacity: 1;
 	justify-content: space-evenly;
+    height:350px;
 }
 
 
@@ -231,7 +233,7 @@ h3{
 
 
 .feature4_sec{
-    padding: 35px;
+    padding: 30px;
 }
 
 
@@ -264,14 +266,17 @@ h4{
 	border-bottom: dotted 2px #c0b6b6;
     padding: 0 0 10px 0;
     border-radius: 5px;
+    width:100%;
 }
 
 
 .third_stepbox{
     border-bottom:0;
+    width:100%;
 }
 .feature4_sec_desc{
     padding: 20px 50px;
+
 }
     
 
@@ -349,6 +354,7 @@ h4{
     border: 0px;
 	justify-content: space-evenly;
     padding: 30px;
+    height: 420px;
 }
 
 
@@ -371,7 +377,7 @@ h4{
 	/*About US Page */
 
 	.aboutus_sec{
-	padding: 35px;
+	padding: 30px;
     text-align: center;
 	}
 
@@ -382,7 +388,7 @@ h4{
 	/* More Efficiency */
 
 	.about_us_feature_sec1{
-		padding: 35px;
+		padding: 30px;
 		}
 
 	.more_work_efficiency_sec_with_banner{
@@ -394,7 +400,8 @@ h4{
 	/* Team section */
 
 	.team_sec{
-		padding: 35px;
+		padding: 30px;
+
 	}
 
 	.team_sec_desc, .team_sec_desc p{
@@ -435,7 +442,7 @@ h4{
     /* Pricing Page */
 
      .pricing_sec{
-        padding: 35px;
+        padding: 30px;
         height: 100vh;
         text-align: center;
     }
@@ -497,7 +504,7 @@ h4{
     }
 
     .compare_features_sec{
-        padding: 35px;
+        padding: 30px;
     }
 
     .features_heading{
@@ -528,7 +535,7 @@ h4{
     }
 
     .faq_section{
-        padding: 35px;
+        padding: 30px;
         text-align: center;
     }
     
@@ -539,15 +546,59 @@ h4{
         align-items: center;
     }
 
+    /* Form page */
+
+
+    .contact_sec{
+        padding: 30px;
+        height: 100vh;
+        width:100%;
+    }
+
+    .contact_form_with_banner{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .form_area{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact_form p{
+        font-size: 20px;
+        font-weight: 600;
+        padding: 10px 0;
+    }
+
+    #submit-btn{
+        background-color: #009aff;
+        color: white;
+        padding: 10px;
+        margin: 10px 0;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 15px;
+    }
+
+    /* Media Queries for Responsive Design */
 
     @media (max-width: 768px) {
         .nav_sec{
-            flex-direction: column;
+            width: 50%;
         }
 
+        .container {
+            width: 50%;
+            max-width: 1350px;
+            margin: 0 auto;
+            padding: 0 20px;
+}
     }
 
      @media (max-width: 567px) {
-        
+        .nav_sec{
+            width: 100%;
         }
-    }
+
+        }
